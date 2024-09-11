@@ -123,12 +123,10 @@ table {
     border-spacing: 0;
 }
 
-:root {
-    /* Color palette format
+/* Color palette format
     --Name-ifspace: [hsl or hex];
     --Gradient-name: linear-gradient((180deg, [hsl or hex]), [hsl or hex]));
     */
-}
 
 h1,
 h2,
@@ -140,6 +138,18 @@ button {
     font-family: 'Source Serif 4', serif;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    min-height: 100vh;
+}
+
 /* Navigation Bar */
 
 header {
@@ -149,7 +159,7 @@ header {
     align-items: center;
     align-content: center;
     justify-items: end;
-    justify-content: end;
+    justify-content: space-between;
     column-gap: 1.5rem;
     padding: 1.5rem 4.5rem;
 
