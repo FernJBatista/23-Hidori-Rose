@@ -169,8 +169,36 @@ header {
         flex-wrap: nowrap;
         align-items: center;
         align-content: center;
-        justify-items: start;
+        justify-items: space-between;
         justify-content: end;
         column-gap: 1.5rem;
+
+        ul {
+            display: flex;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: center;
+            align-content: center;
+            justify-items: end;
+            justify-content: space-between;
+            column-gap: 1.5rem;
+
+            li {
+                list-style-type: none;
+                color: yellow;
+                font-family: 'roboto';
+                font-size: 1.5rem;
+                text-decoration: none;
+
+                a {
+                    text-decoration: none;
+                    color: greenyellow;
+                }
+            }
+        }
     }
 }
