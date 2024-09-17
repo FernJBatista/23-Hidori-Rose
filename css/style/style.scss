@@ -172,5 +172,15 @@ header {
         justify-items: start;
         justify-content: end;
         column-gap: 1.5rem;
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: center;
+            align-content: center;
+            justify-content: flex-end;
+            column-gap: 1.5rem;
+        }
     }
 }
